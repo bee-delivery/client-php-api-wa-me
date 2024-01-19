@@ -1,8 +1,8 @@
 {
-  "name": "raphaelvserafim/client-php-api-wa-me",
+  "name": "beedelivery/client-php-api-wa-me",
   "description": "Classe PHP para comunicação com api-wa.me",
   "type": "library",
-  "homepage": "https://github.com/raphaelvserafim/client-php-api-wa-me",
+  "homepage": "https://github.com/bee-delivery/client-php-api-wa-me",
   "license": "MIT",
   "autoload": {
     "psr-4": {
@@ -10,7 +10,7 @@
     }
   },
   "require": {
-    "php": "^7.2",
+    "php": "^7.2|^8.1",
     "ext-curl": "*"
   },
   "authors": [
@@ -18,5 +18,7 @@
       "name": "Raphael Serafim",
       "email": "raphaelvserafim@gmail.com"
     }
-  ]
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
